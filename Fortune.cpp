@@ -2,6 +2,7 @@
 #include <iostream>
 using namespace std;
 
+
 int main(){
     //Programaa de la fortuna
     int date, time, calendarYear, calendarMonth, calendarDateAndMonth, calendarDate, calendarTime;
