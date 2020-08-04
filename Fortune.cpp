@@ -3,11 +3,13 @@
 using namespace std;
 
 int main(){
-    //Programa de la fortuna
+    //Programaa de la fortuna
     int date, time, calendarYear, calendarMonth, calendarDateAndMonth, calendarDate, calendarTime;
     int hour, minute, hash;
-    cout<<"Give date and time DDMMYYYY and HHMM";
-    cin>>date>>time; //Para usar mas abajo
+    cout<<"Inserte fecha en formato DDMMYYYY";
+    cin>>date;
+    cout<<"Inserte hora en formato HHMMaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+    cin>>time; //Para usar mas abajo
     calendarYear=date%10000; // ejemplo 22072014%10000=2014 (why?)
     calendarDateAndMonth=date/10000; // 22072014/10000=2207
     calendarMonth=calendarDateAndMonth%100;
